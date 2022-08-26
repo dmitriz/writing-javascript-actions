@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "name": "hello-world",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriz/hello-world.git"
+  },
+  "scripts": {
+    "test": "npx tape **/*.test.js"
+  },
+  "keywords": [],
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitriz/hello-world/issues"
+  },
+  "homepage": "https://github.com/dmitriz/hello-world#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1"
+  }
+}
