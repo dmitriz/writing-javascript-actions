@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "name": "issue-maker",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriz/issue-maker.git"
+  },
+  "scripts": {
+    "test": "npx tape **/*.test.js"
+  },
+  "keywords": [],
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitriz/issue-maker/issues"
+  },
+  "homepage": "https://github.com/dmitriz/issue-maker#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}
